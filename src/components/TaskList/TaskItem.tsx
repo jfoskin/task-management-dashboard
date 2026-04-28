@@ -30,7 +30,7 @@ function TaskItem({task, onDelete,onStatusChange}:TaskItemProps) {
     
      <button
             type="button"
-            onClick={() => onDelete(task.id)}>
+            onClick={() => onDelete(task.id)}> Delete
      </button>
 
     </div>
