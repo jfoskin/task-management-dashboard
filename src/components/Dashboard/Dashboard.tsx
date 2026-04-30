@@ -6,22 +6,22 @@ import type { Task } from '../../types'
 
 
 const testTasks: Task[] = [
-  // {
-  //   id: 'task1Id',
-  //     title: 'Task 1',
-  //     description: 'Description 1',
-  //     status: 'pending',
-  //     priority: 'low',
-  //     dueDate: '1/1/11',
-  // },
-  // {
-  //   id: 'task2Id',
-  //     title: 'Task 2',
-  //     description: 'Description 2',
-  //     status: 'pending',
-  //     priority: 'low',
-  //     dueDate: '1/1/11',
-  // },
+  {
+    id: 'task1Id',
+      title: 'Task 1',
+      description: 'Description 1',
+      status: 'pending',
+      priority: 'low',
+      dueDate: '1/1/11',
+  },
+  {
+    id: 'task2Id',
+      title: 'Task 2',
+      description: 'Description 2',
+      status: 'pending',
+      priority: 'low',
+      dueDate: '1/1/11',
+  },
 ]
 
 function Dashboard() {
