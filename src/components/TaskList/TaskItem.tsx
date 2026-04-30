@@ -1,8 +1,8 @@
-import type { TaskItemProps, TaskStatus, } from "../../types"
+import type { TaskItemProps,  } from "../../types"
 
-function TaskItem({task, onDelete,onStatusChange}:TaskItemProps) {
+function TaskItem({task, onDelete,}:TaskItemProps) {
 
-  const statusOptions: TaskStatus[] = ['pending', 'in progress', 'on hold', 'completed']
+  // const statusOptions: TaskStatus[] = ['pending', 'in progress', 'on hold', 'completed']
 
 
   return (
@@ -17,7 +17,7 @@ function TaskItem({task, onDelete,onStatusChange}:TaskItemProps) {
      </p>
 
 
-    <select value={task.status} onChange={(e)=> onStatusChange(task.id, e.target.value as TaskStatus)} >
+    {/* <select value={task.status} onChange={(e)=> onStatusChange(task.id, e.target.value as TaskStatus)} >
       
       {statusOptions.map((status) => (
               <option key={status} value={status}>
@@ -26,7 +26,7 @@ function TaskItem({task, onDelete,onStatusChange}:TaskItemProps) {
             ))}
 
 
-    </select>
+    </select> */}
     
      <button
             type="button"

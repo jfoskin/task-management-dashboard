@@ -13,13 +13,13 @@ export interface Task {
 
 export interface TaskItemProps {
     task: Task;
-    onStatusChange: (taskId: string, newStatus: TaskStatus) => void;
+    // onStatusChange: (taskId: string, newStatus: TaskStatus) => void;
     onDelete: (taskId: string) => void;
 }
 
 export interface TaskListProps {
     tasks: Task[];
-    onStatusChange: (taskId: string, newStatus: TaskStatus) => void;
+    // onStatusChange: (taskId: string, newStatus: TaskStatus) => void;
     onDelete: (taskId: string) => void;
 }
 
