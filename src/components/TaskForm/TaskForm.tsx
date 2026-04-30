@@ -16,8 +16,19 @@ function TaskForm() {
     <div>
       <h3>form</h3>
 
-    {/* <form >
-      <input type="text" name='title' value={formData.title} />
+    <form className="m-4">
+
+      <input type="text" className="border border-red-100 min-w-3xs"/>
+      <input type="text" className="border border-red-100 m-2 min-w-3xs"/>
+      <select name="">
+        <option value="">Pending</option>
+      </select>
+      <select name="">
+        <option value="">Medium</option>
+      </select>
+
+      <button type="submit">Add Task</button>
+      {/* <input type="text" name='title' value={formData.title} />
       <input type="text" name='description' value={formData.description} />
       <select value={formData.status} >
             
@@ -29,8 +40,8 @@ function TaskForm() {
       
       
           </select>
-      <button type='submit'>Add Task</button>
-    </form> */}
+      <button type='submit'>Add Task</button> */}
+    </form>
 
     </div>
   )
