@@ -12,7 +12,7 @@ function TaskItem({task, onDelete,}:TaskItemProps) {
   }
 
   return (
-    <div className="flex items-start justify-between gap-4 rounded-lg border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-700 dark:bg-slate-800">
+    <div className="flex w-1/3 items-start justify-between gap-4 rounded-lg border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-700 dark:bg-slate-800">
       <div className="flex flex-col gap-1">
         <p className="font-medium text-slate-800 dark:text-slate-100">{task.title}</p>
         <p className="text-sm text-slate-500 dark:text-slate-400">{task.description}</p>
