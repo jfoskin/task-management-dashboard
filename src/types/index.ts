@@ -22,3 +22,18 @@ export interface TaskListProps {
     onStatusChange: (taskId: string, newStatus: TaskStatus) => void;
     onDelete: (taskId: string) => void;
 }
+
+export interface TaskFilterProps {
+    onFilterChange: (filters: {
+        status?: TaskStatus;
+        priority?: TaskPriority;
+    }) => void;
+}
+
+export interface TaskFormProps {
+    title: string;
+    description: string;
+    status: TaskStatus;
+    priority: 
+
+}
