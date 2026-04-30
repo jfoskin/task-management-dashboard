@@ -36,10 +36,14 @@ function Dashboard() {
     setTasks(prev => prev.filter(task => task.id !== taskId))
   }
 
+  const handleAddTask = (newTask: Task) => {
+  setTasks(prev => [...prev, newTask])
+}
+
   return (
     <div><h1>Dashboard</h1>
 
-<TaskForm/>
+<TaskForm onAddTask={handleAddTask}/>
 <TaskFilter/>
 <TaskList tasks={tasks} onDelete={handleDelete} />
 

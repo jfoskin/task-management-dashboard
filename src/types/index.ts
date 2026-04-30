@@ -31,9 +31,14 @@ export interface TaskFilterProps {
 }
 
 export interface TaskFormProps {
-    title: string;
-    description: string;
-    status: TaskStatus;
-    priority: TaskPriority;
+    onAddTask: (task: Task) => void;
 
+}
+
+export interface FormData {
+    title: string
+    description: string
+    dueDate: string
+    priority: TaskPriority
+    status: TaskStatus
 }

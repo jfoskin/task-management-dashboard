@@ -12,3 +12,5 @@ Planning this project out  was a challenge for me because I didn't really get a 
 
 
 3. Your approach to component composition and state management
+
+Currently I haven't explored component composition. Currently my application is small enough that prop drilling won't impact my application.
