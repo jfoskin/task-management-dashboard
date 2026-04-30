@@ -6,7 +6,7 @@ export interface Task {
     title: string;
     description: string;
     dueDate: string;
-    status: TaskStatus;
+    // status: TaskStatus;
     priority: TaskPriority;
 }
 
@@ -34,6 +34,6 @@ export interface TaskFormProps {
     title: string;
     description: string;
     status: TaskStatus;
-    priority: 
+    priority: TaskPriority;
 
 }

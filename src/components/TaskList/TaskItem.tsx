@@ -8,7 +8,7 @@ function TaskItem({task, onDelete,}:TaskItemProps) {
   return (
     <div>
 
-    <h4>{task.status}</h4>
+    {/* <h4>{task.status}</h4> */}
     <p>{task.description}</p>
     <p>{task.priority}</p>
 

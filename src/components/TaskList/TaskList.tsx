@@ -20,13 +20,13 @@ function TaskList({tasks, onDelete,}: TaskListProps) {
     <div>
   <h6>hello</h6>
       {/* mapping each task that has been added to the list */}
-      {tasks.map((task) => {
+      {tasks.map((task) => (
         <TaskItem 
         key={task.id}
         task={task}
         onDelete={onDelete}
         />
-      })}
+      ))}
     </div>
   )
 }
